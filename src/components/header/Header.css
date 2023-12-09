@@ -1,0 +1,55 @@
+header{
+    background-image: url(../../images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    padding: 40px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+header a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+header a .left{
+    margin-right: 10px;
+    background-color: transparent;
+    border: 2px solid #BEE1FD;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+header a.active .left{
+    margin-right: 10px;
+    background-color: #BEE1FD;
+    color: #0E2F5C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+header a .right .top{
+    color: #dedfe4;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+header a .right .bottom{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
